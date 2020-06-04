@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50E2613424893BF5004B226D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2613324893BF5004B226D /* AppDelegate.swift */; };
+		50E2613624893BF5004B226D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2613524893BF5004B226D /* SceneDelegate.swift */; };
+		50E2613824893BF5004B226D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2613724893BF5004B226D /* ViewController.swift */; };
+		50E2613B24893BF5004B226D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E2613924893BF5004B226D /* Main.storyboard */; };
+		50E2613E24893BF5004B226D /* Cotcot_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E2613C24893BF5004B226D /* Cotcot_.xcdatamodeld */; };
+		50E2614024893BF8004B226D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E2613F24893BF8004B226D /* Assets.xcassets */; };
+		50E2614324893BF8004B226D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E2614124893BF8004B226D /* LaunchScreen.storyboard */; };
+		50E2614E24893BF8004B226D /* Cotcot_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2614D24893BF8004B226D /* Cotcot_Tests.swift */; };
+		50E2615924893BF8004B226D /* Cotcot_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2615824893BF8004B226D /* Cotcot_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50E2614A24893BF8004B226D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E2612824893BF5004B226D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E2612F24893BF5004B226D;
+			remoteInfo = "Cotcot'";
+		};
+		50E2615524893BF8004B226D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E2612824893BF5004B226D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E2612F24893BF5004B226D;
+			remoteInfo = "Cotcot'";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50E2613024893BF5004B226D /* Cotcot'.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cotcot'.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E2613324893BF5004B226D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50E2613524893BF5004B226D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50E2613724893BF5004B226D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50E2613A24893BF5004B226D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50E2613D24893BF5004B226D /* Cotcot_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cotcot_.xcdatamodel; sourceTree = "<group>"; };
+		50E2613F24893BF8004B226D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50E2614224893BF8004B226D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50E2614424893BF8004B226D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E2614924893BF8004B226D /* Cotcot'Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cotcot'Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E2614D24893BF8004B226D /* Cotcot_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cotcot_Tests.swift; sourceTree = "<group>"; };
+		50E2614F24893BF8004B226D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E2615424893BF8004B226D /* Cotcot'UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cotcot'UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E2615824893BF8004B226D /* Cotcot_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cotcot_UITests.swift; sourceTree = "<group>"; };
+		50E2615A24893BF8004B226D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E2612D24893BF5004B226D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2614624893BF8004B226D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2615124893BF8004B226D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50E2612724893BF5004B226D = {
+			isa = PBXGroup;
+			children = (
+				50E2613224893BF5004B226D /* Cotcot' */,
+				50E2614C24893BF8004B226D /* Cotcot'Tests */,
+				50E2615724893BF8004B226D /* Cotcot'UITests */,
+				50E2613124893BF5004B226D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50E2613124893BF5004B226D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E2613024893BF5004B226D /* Cotcot'.app */,
+				50E2614924893BF8004B226D /* Cotcot'Tests.xctest */,
+				50E2615424893BF8004B226D /* Cotcot'UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50E2613224893BF5004B226D /* Cotcot' */ = {
+			isa = PBXGroup;
+			children = (
+				50E2613324893BF5004B226D /* AppDelegate.swift */,
+				50E2613524893BF5004B226D /* SceneDelegate.swift */,
+				50E2613724893BF5004B226D /* ViewController.swift */,
+				50E2613924893BF5004B226D /* Main.storyboard */,
+				50E2613F24893BF8004B226D /* Assets.xcassets */,
+				50E2614124893BF8004B226D /* LaunchScreen.storyboard */,
+				50E2614424893BF8004B226D /* Info.plist */,
+				50E2613C24893BF5004B226D /* Cotcot_.xcdatamodeld */,
+			);
+			path = "Cotcot'";
+			sourceTree = "<group>";
+		};
+		50E2614C24893BF8004B226D /* Cotcot'Tests */ = {
+			isa = PBXGroup;
+			children = (
+				50E2614D24893BF8004B226D /* Cotcot_Tests.swift */,
+				50E2614F24893BF8004B226D /* Info.plist */,
+			);
+			path = "Cotcot'Tests";
+			sourceTree = "<group>";
+		};
+		50E2615724893BF8004B226D /* Cotcot'UITests */ = {
+			isa = PBXGroup;
+			children = (
+				50E2615824893BF8004B226D /* Cotcot_UITests.swift */,
+				50E2615A24893BF8004B226D /* Info.plist */,
+			);
+			path = "Cotcot'UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E2612F24893BF5004B226D /* Cotcot' */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E2615D24893BF8004B226D /* Build configuration list for PBXNativeTarget "Cotcot'" */;
+			buildPhases = (
+				50E2612C24893BF5004B226D /* Sources */,
+				50E2612D24893BF5004B226D /* Frameworks */,
+				50E2612E24893BF5004B226D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cotcot'";
+			productName = "Cotcot'";
+			productReference = 50E2613024893BF5004B226D /* Cotcot'.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50E2614824893BF8004B226D /* Cotcot'Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E2616024893BF8004B226D /* Build configuration list for PBXNativeTarget "Cotcot'Tests" */;
+			buildPhases = (
+				50E2614524893BF8004B226D /* Sources */,
+				50E2614624893BF8004B226D /* Frameworks */,
+				50E2614724893BF8004B226D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E2614B24893BF8004B226D /* PBXTargetDependency */,
+			);
+			name = "Cotcot'Tests";
+			productName = "Cotcot'Tests";
+			productReference = 50E2614924893BF8004B226D /* Cotcot'Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50E2615324893BF8004B226D /* Cotcot'UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E2616324893BF8004B226D /* Build configuration list for PBXNativeTarget "Cotcot'UITests" */;
+			buildPhases = (
+				50E2615024893BF8004B226D /* Sources */,
+				50E2615124893BF8004B226D /* Frameworks */,
+				50E2615224893BF8004B226D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E2615624893BF8004B226D /* PBXTargetDependency */,
+			);
+			name = "Cotcot'UITests";
+			productName = "Cotcot'UITests";
+			productReference = 50E2615424893BF8004B226D /* Cotcot'UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E2612824893BF5004B226D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Nicolas CARRARA";
+				TargetAttributes = {
+					50E2612F24893BF5004B226D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					50E2614824893BF8004B226D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 50E2612F24893BF5004B226D;
+					};
+					50E2615324893BF8004B226D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 50E2612F24893BF5004B226D;
+					};
+				};
+			};
+			buildConfigurationList = 50E2612B24893BF5004B226D /* Build configuration list for PBXProject "Cotcot'" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50E2612724893BF5004B226D;
+			productRefGroup = 50E2613124893BF5004B226D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E2612F24893BF5004B226D /* Cotcot' */,
+				50E2614824893BF8004B226D /* Cotcot'Tests */,
+				50E2615324893BF8004B226D /* Cotcot'UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E2612E24893BF5004B226D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E2614324893BF8004B226D /* LaunchScreen.storyboard in Resources */,
+				50E2614024893BF8004B226D /* Assets.xcassets in Resources */,
+				50E2613B24893BF5004B226D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2614724893BF8004B226D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2615224893BF8004B226D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E2612C24893BF5004B226D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E2613824893BF5004B226D /* ViewController.swift in Sources */,
+				50E2613424893BF5004B226D /* AppDelegate.swift in Sources */,
+				50E2613624893BF5004B226D /* SceneDelegate.swift in Sources */,
+				50E2613E24893BF5004B226D /* Cotcot_.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2614524893BF8004B226D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E2614E24893BF8004B226D /* Cotcot_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2615024893BF8004B226D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E2615924893BF8004B226D /* Cotcot_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50E2614B24893BF8004B226D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E2612F24893BF5004B226D /* Cotcot' */;
+			targetProxy = 50E2614A24893BF8004B226D /* PBXContainerItemProxy */;
+		};
+		50E2615624893BF8004B226D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E2612F24893BF5004B226D /* Cotcot' */;
+			targetProxy = 50E2615524893BF8004B226D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50E2613924893BF5004B226D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E2613A24893BF5004B226D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50E2614124893BF8004B226D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E2614224893BF8004B226D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50E2615B24893BF8004B226D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50E2615C24893BF8004B226D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50E2615E24893BF8004B226D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EV3ZXTEWYU;
+				INFOPLIST_FILE = "Cotcot'/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikoala.Cotcot-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50E2615F24893BF8004B226D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EV3ZXTEWYU;
+				INFOPLIST_FILE = "Cotcot'/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikoala.Cotcot-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50E2616124893BF8004B226D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EV3ZXTEWYU;
+				INFOPLIST_FILE = "Cotcot'Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikoala.Cotcot-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cotcot'.app/Cotcot'";
+			};
+			name = Debug;
+		};
+		50E2616224893BF8004B226D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EV3ZXTEWYU;
+				INFOPLIST_FILE = "Cotcot'Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikoala.Cotcot-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cotcot'.app/Cotcot'";
+			};
+			name = Release;
+		};
+		50E2616424893BF8004B226D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EV3ZXTEWYU;
+				INFOPLIST_FILE = "Cotcot'UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikoala.Cotcot-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cotcot'";
+			};
+			name = Debug;
+		};
+		50E2616524893BF8004B226D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EV3ZXTEWYU;
+				INFOPLIST_FILE = "Cotcot'UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikoala.Cotcot-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cotcot'";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E2612B24893BF5004B226D /* Build configuration list for PBXProject "Cotcot'" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E2615B24893BF8004B226D /* Debug */,
+				50E2615C24893BF8004B226D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E2615D24893BF8004B226D /* Build configuration list for PBXNativeTarget "Cotcot'" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E2615E24893BF8004B226D /* Debug */,
+				50E2615F24893BF8004B226D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E2616024893BF8004B226D /* Build configuration list for PBXNativeTarget "Cotcot'Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E2616124893BF8004B226D /* Debug */,
+				50E2616224893BF8004B226D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E2616324893BF8004B226D /* Build configuration list for PBXNativeTarget "Cotcot'UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E2616424893BF8004B226D /* Debug */,
+				50E2616524893BF8004B226D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50E2613C24893BF5004B226D /* Cotcot_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50E2613D24893BF5004B226D /* Cotcot_.xcdatamodel */,
+			);
+			currentVersion = 50E2613D24893BF5004B226D /* Cotcot_.xcdatamodel */;
+			path = Cotcot_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50E2612824893BF5004B226D /* Project object */;
+}
