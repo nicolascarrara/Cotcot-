@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5067563F2489479E00951729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5067563E2489479E00951729 /* Main.storyboard */; };
+		506756472489624B00951729 /* HatchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506756462489624B00951729 /* HatchingViewController.swift */; };
+		5067564924897DB200951729 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067564824897DB200951729 /* HistoryViewController.swift */; };
+		5067564B24897F8200951729 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067564A24897F8200951729 /* StatsViewController.swift */; };
+		5067564D24897F9100951729 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067564C24897F9100951729 /* SettingsViewController.swift */; };
 		50E2613424893BF5004B226D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2613324893BF5004B226D /* AppDelegate.swift */; };
 		50E2613624893BF5004B226D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2613524893BF5004B226D /* SceneDelegate.swift */; };
 		50E2613824893BF5004B226D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2613724893BF5004B226D /* ViewController.swift */; };
@@ -37,6 +41,14 @@
 
 /* Begin PBXFileReference section */
 		5067563E2489479E00951729 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5067564224894F6100951729 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		5067564324894F9400951729 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBoldItalic.ttf"; path = "../../../../Downloads/Montserrat/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		5067564424894F9400951729 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../Downloads/Montserrat/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		5067564524894F9400951729 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-BoldItalic.ttf"; path = "../../../../Downloads/Montserrat/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		506756462489624B00951729 /* HatchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatchingViewController.swift; sourceTree = "<group>"; };
+		5067564824897DB200951729 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		5067564A24897F8200951729 /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		5067564C24897F9100951729 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		50E2613024893BF5004B226D /* Cotcot'.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cotcot'.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E2613324893BF5004B226D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50E2613524893BF5004B226D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5067564124894F5B00951729 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				5067564524894F9400951729 /* Montserrat-BoldItalic.ttf */,
+				5067564424894F9400951729 /* Montserrat-SemiBold.ttf */,
+				5067564324894F9400951729 /* Montserrat-SemiBoldItalic.ttf */,
+				5067564224894F6100951729 /* Montserrat-Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		50E2612724893BF5004B226D = {
 			isa = PBXGroup;
 			children = (
@@ -104,10 +127,15 @@
 				50E2613324893BF5004B226D /* AppDelegate.swift */,
 				50E2613524893BF5004B226D /* SceneDelegate.swift */,
 				50E2613724893BF5004B226D /* ViewController.swift */,
+				506756462489624B00951729 /* HatchingViewController.swift */,
+				5067564824897DB200951729 /* HistoryViewController.swift */,
+				5067564A24897F8200951729 /* StatsViewController.swift */,
+				5067564C24897F9100951729 /* SettingsViewController.swift */,
 				50E2613F24893BF8004B226D /* Assets.xcassets */,
 				5067563E2489479E00951729 /* Main.storyboard */,
 				50E2614124893BF8004B226D /* LaunchScreen.storyboard */,
 				50E2614424893BF8004B226D /* Info.plist */,
+				5067564124894F5B00951729 /* Font */,
 				50E2613C24893BF5004B226D /* Cotcot_.xcdatamodeld */,
 			);
 			path = "Cotcot'";
@@ -265,7 +293,11 @@
 				50E2613824893BF5004B226D /* ViewController.swift in Sources */,
 				50E2613424893BF5004B226D /* AppDelegate.swift in Sources */,
 				50E2613624893BF5004B226D /* SceneDelegate.swift in Sources */,
+				5067564924897DB200951729 /* HistoryViewController.swift in Sources */,
+				5067564B24897F8200951729 /* StatsViewController.swift in Sources */,
 				50E2613E24893BF5004B226D /* Cotcot_.xcdatamodeld in Sources */,
+				506756472489624B00951729 /* HatchingViewController.swift in Sources */,
+				5067564D24897F9100951729 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
