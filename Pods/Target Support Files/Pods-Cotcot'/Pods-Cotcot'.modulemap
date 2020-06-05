@@ -1,0 +1,6 @@
+framework module Pods_Cotcot_ {
+  umbrella header "Pods-Cotcot'-umbrella.h"
+
+  export *
+  module * { export * }
+}
