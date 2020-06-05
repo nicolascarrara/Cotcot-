@@ -1,14 +1,14 @@
 //
-//  HistoryViewController.swift
-//  Cotcot'
+//  HatchDetailViewController.swift
+//  Cotcot
 //
-//  Created by Nicolas CARRARA on 04/06/2020.
+//  Created by Nicolas CARRARA on 05/06/2020.
 //  Copyright © 2020 Nicolas CARRARA. All rights reserved.
 //
 
 import UIKit
 
-class HistoryViewController: UIViewController {
+class HatchDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

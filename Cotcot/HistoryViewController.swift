@@ -1,5 +1,5 @@
 //
-//  HatchingViewController.swift
+//  HistoryViewController.swift
 //  Cotcot'
 //
 //  Created by Nicolas CARRARA on 04/06/2020.
@@ -7,15 +7,12 @@
 //
 
 import UIKit
+import SwiftyGif
 
-class HatchingViewController: UIViewController {
+class HistoryViewController: UIViewController {
 
-    @IBOutlet weak var CurrentHatchTable: UITableView!
-    @IBOutlet var noItemsView: UIView!
+   // @IBOutlet weak var imageViewtest: UIImageView!
     override func viewDidLoad() {
-        super.viewDidLoad()
-        CurrentHatchTable.backgroundView=noItemsView
-        // Do any additional setup after loading the view.
         
         
     }
