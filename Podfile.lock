@@ -1,16 +1,26 @@
 PODS:
+  - Realm (5.0.2):
+    - Realm/Headers (= 5.0.2)
+  - Realm/Headers (5.0.2)
+  - RealmSwift (5.0.2):
+    - Realm (= 5.0.2)
   - SwiftyGif (5.3.0)
 
 DEPENDENCIES:
+  - RealmSwift
   - SwiftyGif
 
 SPEC REPOS:
   trunk:
+    - Realm
+    - RealmSwift
     - SwiftyGif
 
 SPEC CHECKSUMS:
+  Realm: 6b6f096671b64b04d08974177cabb2ff9343d153
+  RealmSwift: a3db6be0488bf3e1d5314c2956cefe98a65cdd01
   SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
 
-PODFILE CHECKSUM: a97743af266cf297a71c3416c9f4552ed2077438
+PODFILE CHECKSUM: 9183175b7921b4d78abf50ae6f91e21879f776f6
 
 COCOAPODS: 1.9.3
